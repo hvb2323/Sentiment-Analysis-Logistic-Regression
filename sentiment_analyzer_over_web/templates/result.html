@@ -1,0 +1,28 @@
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background: linear-gradient(135deg, #db346c, #4493ad); /* Gradient background */
+    }
+    
+    .container {
+        padding: 120px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+        backdrop-filter: blur(10px); /* Gaussian blur */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    }
+    
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Result</h1>
+    <p>Input text: {{ text }}</p>
+    <p>Sentiment: {{ prediction }}</p>
+    </div>
+</body>
+</html>
